@@ -1,0 +1,28 @@
+@import "./base.css";
+
+#app {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: var(--color-heading);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: rgba(242, 226, 5, 0.25);
+  }
+}
+
+body {
+  display: block;
+  padding: 0;
+}
