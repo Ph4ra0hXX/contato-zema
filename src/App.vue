@@ -46,6 +46,20 @@ const categories = [
       },
     ],
   },
+  {
+    id: "emprestimo",
+    label: "Empréstimo",
+    hint: "Crédito e empréstimos.",
+    areas: [
+      {
+        id: "emprestimo-whatsapp",
+        name: "Empréstimo",
+        whatsapp: "553499447031",
+        phone: "34 9944-7031",
+        photo: "/vendors/placeholder.svg",
+      },
+    ],
+  },
 ];
 
 function avatarSrc(area) {
