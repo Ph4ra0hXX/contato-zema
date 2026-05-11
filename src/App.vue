@@ -73,20 +73,8 @@ function onAvatarError(event) {
   }
 }
 
-function buildBody(categoryLabel, areaName) {
-  const lines = [
-    `Olá! Gostaria de falar com a área "${areaName}".`,
-    "",
-    `Categoria: ${categoryLabel}`,
-    "",
-    "Podem me orientar sobre o melhor atendimento?",
-  ];
-  return lines.join("\n");
-}
-
 function whatsappHref(area) {
-  const text = encodeURIComponent(buildBody(area.categoryLabel, area.name));
-  return `https://wa.me/${area.whatsapp}?text=${text}`;
+  return `https://wa.me/${area.whatsapp}`;
 }
 </script>
 
