@@ -160,9 +160,15 @@ function whatsappHref(area) {
   color: var(--color-text);
 }
 
+.panelTitle {
+  padding-left: 0.85rem;
+  border-left: 4px solid var(--color-primary);
+}
+
 .panelTitle h2 {
-  font-size: 1.1rem;
-  font-weight: 650;
+  font-size: 1.25rem;
+  font-weight: 750;
+  line-height: 1.15;
   color: var(--color-heading);
 }
 
