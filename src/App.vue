@@ -6,7 +6,7 @@ const placeholderPhoto = "/vendors/placeholder.svg";
 const categories = [
   {
     id: "eletro",
-    label: "Eletro & Eletrônicos",
+    label: "Móveis e Eletro",
     hint: "TVs, celulares, informática, acessórios.",
     areas: [
       {
