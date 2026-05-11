@@ -301,10 +301,37 @@ textarea:focus {
   text-decoration: none;
   font-weight: 700;
   letter-spacing: 0.01em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateY(0);
+  box-shadow:
+    0 6px 0 0 var(--vt-c-divider-dark-2),
+    0 14px 18px -14px var(--vt-c-divider-dark-1);
+  transition:
+    transform 140ms ease,
+    box-shadow 140ms ease,
+    filter 140ms ease;
 }
 
 .btn:hover {
   filter: brightness(0.98);
+  transform: translateY(-1px);
+  box-shadow:
+    0 7px 0 0 var(--vt-c-divider-dark-2),
+    0 16px 20px -14px var(--vt-c-divider-dark-1);
+}
+
+.btn:active {
+  transform: translateY(2px);
+  box-shadow:
+    0 3px 0 0 var(--vt-c-divider-dark-2),
+    0 10px 14px -14px var(--vt-c-divider-dark-1);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
 }
 
 .btnGhost {
